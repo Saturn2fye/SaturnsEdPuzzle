@@ -4,7 +4,11 @@
 // @version      69
 // @description  Just gimme my money
 // @author       Saturn
-// @match        make this the URL of the Edpuzzle
+// @match        *edpuzzle.com/lti/*
+// @match        *edpuzzle.com/assignments/*
+// @match        *edpuzzle.com/media/*
+// @match        *youtube.com/embed*
+// @match        *youtube-nocookie.com/embed*
 // @icon         https://i.etsystatic.com/28921914/r/il/e40c1d/3381738788/il_fullxfull.3381738788_avf0.jpg
 // @grant        none
 // ==/UserScript==
@@ -347,3 +351,4 @@ function parseQuestions(questions) {
 }
 
 init();
+
